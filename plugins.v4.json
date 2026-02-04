@@ -209,6 +209,20 @@
         "表情"
       ],
       "minVersion": "4.14.0"
+    },
+    {
+      "id": "napcat-plugin-qqemoji",
+      "name": "哈基米语音",
+      "version": "1.0.0",
+      "description": "NapCat随机哈基米语音",
+      "author": "鸡太美",
+      "homepage": "https://github.com/ovoox/napcat-plugin-hjm",
+      "downloadUrl": "https://github.com/ovoox/napcat-plugin-hjm/releases/download/v1.0.0/napcat-plugin-hjm.zip",
+      "tags": [
+        "语音",
+        "哈基米"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
