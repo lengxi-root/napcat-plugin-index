@@ -112,6 +112,25 @@ NapCat 插件索引仓库
 
 ---
 
+## 📢 webui 跳转引导
+
+为了提升体验，你可以在插件的 `homepage` 页面（通常是 GitHub 仓库主页）添加用于跳转到 NapCat webui 插件安装界面的引导信息，本仓库提供了一个按钮素材，你可以直接使用：
+
+```html
+<a href="https://napneko.github.io/napcat-plugin-index?pluginId=<插件ID>" target="_blank">
+  <img src="https://github.com/NapNeko/napcat-plugin-index/blob/pages/button.png?raw=true" alt="Logo" width="170">
+</a>
+```
+
+<a href="https://napneko.github.io/napcat-plugin-index?pluginId=napcat-plugin-index" target="_blank">
+  <img src="https://github.com/NapNeko/napcat-plugin-index/blob/pages/button.png?raw=true" alt="Logo" width="170">
+</a>
+
+<br>
+将 `<插件ID>` 替换为你的插件 ID（如 `napcat-plugin-index`），点击后即可直接跳转到 NapCat webui 中该插件的安装界面。此功能在 NapCat 4.15.19 及以上版本中可用。
+
+---
+
 ## 📄 License
 
 MIT License
